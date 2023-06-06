@@ -8,23 +8,18 @@ This is a real-time web application built with Node.js, Express.js, and Socket.i
 - Real-time updates on Page 2 when input data changes on Page 1.
 - WebSocket communication using Socket.io for real-time data transfer.
 
-## Prerequisites
-
-- Node.js (version X.X.X or higher)
-- npm (version X.X.X or higher)
-
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>```
+   git clone <repository_url>
 
 2. Install the dependencies:
 
 ```bash
 cd <project_directory>
-npm install```
+npm install
 
 
 ## Usage
