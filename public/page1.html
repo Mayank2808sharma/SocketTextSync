@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page 1</title>
+</head>
+<body>
+  <h1>Page 1</h1>
+  <input id="text1" type="text">
+  <input id="text2" type="text">
+  <!-- Add more input fields as needed -->
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    // Event listener for input changes
+    const handleInputChange = (event) => {
+      const data = {
+        text1: document.getElementById('text1').value,
+        text2: document.getElementById('text2').value,
+        // Get values from other input fields as needed
+      };
+
+      // Send the data to the server
+      socket.emit('page1Data', data);
+    };
+
+    // Add event listeners to input fields
+    document.getElementById('text1').addEventListener('input', handleInputChange);
+    document.getElementById('text2').addEventListener('input', handleInputChange);
+    // Add event listeners to other input fields as needed
+  </script>
+</body>
+</html>
