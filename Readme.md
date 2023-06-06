@@ -17,7 +17,6 @@ This is a real-time web application built with Node.js, Express.js, and Socket.i
 
 2. Install the dependencies:
 
-```bash
 cd <project_directory>
 npm install
 
