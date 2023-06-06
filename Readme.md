@@ -21,12 +21,13 @@ This is a real-time web application built with Node.js, Express.js, and Socket.i
 cd <project_directory>
 npm install
 
+```
 
 ## Usage
 
 1. Start the server:
 
-```bash
+```
 npm start
 ```
 
