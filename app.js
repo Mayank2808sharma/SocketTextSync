@@ -37,7 +37,7 @@ const swaggerOptions = {
     info: {
       title: 'Backend API',
       version: '1.0.0',
-      description: 'API documentation for the backend',
+      description: 'API documentation for the backend done using Swagger ',
     },
   },
   apis: ['app.js'],
